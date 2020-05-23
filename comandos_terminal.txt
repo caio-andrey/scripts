@@ -1,0 +1,20 @@
+Desinstalar programas
+
+dpkg --list #No terminal, para ver lista de programas
+
+Encontrar o nome do progama
+
+sudo apt-get --purge remove "x" #Para desinstalar
+
+Alternativa caso o comando de cima não funcione
+
+sudo aptitude remove "x"
+-------------------------------------------------------------------------------------
+
+Criar arquivos texto
+
+cat > "x".txt
+
+-------------------------------------------------------------------------------------
+
+

@@ -5,10 +5,10 @@ sudo apt-get install r-base r-base-dev
 sudo echo deb http://cran.rstudio.com/bin/linux/ubuntu xenial/ | sudo tee -a /etc/apt/sources.list
 
 #Atualizar:
-gsudo apt-get update
+sudo apt-get update
 
 #Instalar:
-sudo apt-get install r-base r-base-dev
-#Mostra onde esta o arquivo deb do rstudio
-cd Downloads
- sudo gdebi -n rstudio-1.2.5033-amd64.deb 
+wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.2.5042-amd64.deb -O rstudio.deb
+ 
+#Instalar:
+sudo apt install ./rstudio.deb
